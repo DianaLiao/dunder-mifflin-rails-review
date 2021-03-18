@@ -3,4 +3,6 @@
   <% @employees.each do |emp| %>
     <li><%= link_to "#{emp.first_name} #{emp.last_name}", employee_path(emp.id) %></li>
   <% end %>
+
+
 </ul>

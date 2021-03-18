@@ -1,7 +1,10 @@
 class DogsController < ApplicationController
 
   def index
+    IF(params[button])
     @dogs = Dog.all
+  else
+
   end
 
   def show
